@@ -8,4 +8,6 @@ module main.javafx {
     exports main.javafx;
     exports main.javafx.tipCalculator;
     opens main.javafx.tipCalculator to javafx.fxml;
+    exports main.javafx.EnhancedTipCalculator;
+    opens main.javafx.EnhancedTipCalculator to javafx.fxml;
 }

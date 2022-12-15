@@ -56,9 +56,11 @@ public class tipCalculator extends Application {
                 double tipAmount = billAmount * tipPercentage / 100;
                 tipAmountField.setText(String.format("%.2f", tipAmount));
             } catch (NumberFormatException e) {
-                tipAmountField.setText("Something went wrong!");
+                tipAmountField.setText("");
             }
         });
+
+//        gridPane.getStylesheets().add(getClass().getResource("styles.css").toExternalForm());
 
         // Show the user interface
         Scene scene = new Scene(gridPane);
