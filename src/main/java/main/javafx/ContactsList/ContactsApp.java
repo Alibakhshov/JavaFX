@@ -1,4 +1,4 @@
-package main.javafx;
+package main.javafx.ContactsList;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;

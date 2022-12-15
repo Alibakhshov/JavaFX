@@ -16,4 +16,6 @@ module main.javafx {
     opens main.javafx.TargetHeartRateCalculator to javafx.fxml;
     exports main.javafx.Painter;
     opens main.javafx.Painter to javafx.fxml;
+    exports main.javafx.ContactsList;
+    opens main.javafx.ContactsList to javafx.fxml;
 }
