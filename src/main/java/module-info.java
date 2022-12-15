@@ -14,4 +14,6 @@ module main.javafx {
     opens main.javafx.BMICalculator to javafx.fxml;
     exports main.javafx.TargetHeartRateCalculator;
     opens main.javafx.TargetHeartRateCalculator to javafx.fxml;
+    exports main.javafx.Painter;
+    opens main.javafx.Painter to javafx.fxml;
 }
