@@ -12,4 +12,6 @@ module main.javafx {
     opens main.javafx.EnhancedTipCalculator to javafx.fxml;
     exports main.javafx.BMICalculator;
     opens main.javafx.BMICalculator to javafx.fxml;
+    exports main.javafx.TargetHeartRateCalculator;
+    opens main.javafx.TargetHeartRateCalculator to javafx.fxml;
 }
