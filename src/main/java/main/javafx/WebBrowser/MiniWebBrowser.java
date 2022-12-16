@@ -1,4 +1,4 @@
-package main.javafx;
+package main.javafx.WebBrowser;
 
 import javafx.application.Application;
 import javafx.geometry.HPos;
@@ -14,7 +14,7 @@ import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
-public class MiniBrowser extends Application {
+public class MiniWebBrowser extends Application {
 
     private Scene scene;
     private TextField addressBar;
