@@ -5,6 +5,43 @@
 
 `JavaFX` is a software platform for creating and delivering desktop applications, as well as rich internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.
 
+## What is JavaFX Scene Builder?
+
+`JavaFX Scene Builder` is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. It is a companion tool to the JavaFX SDK. JavaFX Scene Builder is an open source, free visual design tool for JavaFX applications, and is available under the GNU General Public License version 2 with the Classpath Exception.
+
+
+
+## How to use JavaFX Scene Builder?
+
+### 1. Download JavaFX Scene Builder
+
+Download the latest version of JavaFX Scene Builder from [here](https://gluonhq.com/products/scene-builder/).
+
+### 2. Install JavaFX Scene Builder
+
+Extract the downloaded zip file and run the `SceneBuilder.exe` file.
+
+### 3. Create a new project
+
+Click on `File` and then `New` to create a new project.
+
+### 4. Add a new FXML file
+
+Click on `File` and then `New` to create a new FXML file.
+
+### 5. Add a new controller class
+
+Click on `File` and then `New` to create a new controller class.
+
+### 6. Add a new FXML file to the project
+
+Click on `File` and then `New` to create a new FXML file.
+
+### 7. Add a new controller class to the project
+
+Click on `File` and then `New` to create a new controller class.
+
+
 
 Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
 You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator">here</a>:
