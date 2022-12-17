@@ -54,3 +54,5 @@ Navigate to the source code here.
 Output of the Modified Tip Calculator:
 
 ![img_7.png](src/Pictures/img_8.png)
+
+![img_9.png](src/Pictures/img_9.png)
