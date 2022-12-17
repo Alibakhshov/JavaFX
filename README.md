@@ -39,6 +39,7 @@ Output of the Simple Contact List App:
 ![img_7.png](src/Pictures/img_7.png)
 
 
+
 Modified Contact List App is a simple JavaFX application that allows the user to add, edit and delete contacts.
 Navigate to the source code here.
 
