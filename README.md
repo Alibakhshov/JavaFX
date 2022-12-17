@@ -9,8 +9,6 @@
 
 `JavaFX Scene Builder` is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. It is a companion tool to the JavaFX SDK. JavaFX Scene Builder is an open source, free visual design tool for JavaFX applications, and is available under the GNU General Public License version 2 with the Classpath Exception.
 
-
-
 ## How to use JavaFX Scene Builder?
 
 ### 1. Download JavaFX Scene Builder
@@ -42,6 +40,9 @@ Click on `File` and then `New` to create a new FXML file.
 Click on `File` and then `New` to create a new controller class.
 
 
+## Projects using JavaFX and Scene Builder 
+
+### 1. [JavaFX Tip Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator)
 
 Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
 You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator">here</a>:
