@@ -20,7 +20,7 @@ public class BMIcalculator extends Application {
     public void start(Stage primaryStage) {
         primaryStage.setTitle("BMI Calculator");
 
-        // Create a grid pane to hold the input fields and labels
+        // Creating a grid pane to hold the input fields and labels
         GridPane grid = new GridPane();
         grid.setStyle(
                 "-fx-padding: 10;" +
