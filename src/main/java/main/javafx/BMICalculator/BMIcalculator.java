@@ -6,6 +6,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Labeled;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
@@ -39,6 +40,9 @@ public class BMIcalculator extends Application {
 
         // Create the calculate button and set its action
         Button calcButton = new Button("Calculate BMI");
+        calcButton.setStyle("-fx-background-color: darkslateblue; " +
+                "-fx-text-fill: white;");
+
         calcButton.setOnAction(event -> {
             // Get the weight and height from the input fields
             double weight = Double.parseDouble(weightField.getText());
@@ -54,7 +58,7 @@ public class BMIcalculator extends Application {
 
         // Create the scene and set the CSS stylesheet
         Scene scene = new Scene(grid, 350, 200);
-//        scene.getStylesheets().add("bmi-calculator.css");
+        scene.getStylesheets().add("java/main/javafx/BMICalculator/bmi-calculator.css");
 
         // Set the scene and show the stage
         primaryStage.setScene(scene);

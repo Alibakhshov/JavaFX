@@ -24,6 +24,6 @@ module main.javafx {
     opens main.javafx.TipCalculatorModification to javafx.fxml;
     exports main.javafx.ColorChooser;
     opens main.javafx.ColorChooser to javafx.fxml;
-    exports main.javafx.WebBrowser;
-    opens main.javafx.WebBrowser to javafx.fxml;
+//    exports main.javafx.WebBrowser;
+//    opens main.javafx.WebBrowser to javafx.fxml;
 }
