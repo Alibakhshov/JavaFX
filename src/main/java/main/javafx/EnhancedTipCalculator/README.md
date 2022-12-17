@@ -11,7 +11,7 @@ Enhanced Tip Calculator is a JavaFX application that calculates the tip for a gi
 
 ## How to run the application
 
-1. Download the project from the repository or just simply copy the code from the tipCalculator.java file and paste it in your code editor.
+1. Download the project from the repository or just simply copy the code from the `EnhancedTipCalculator.java` file and paste it in your code editor.
 2. Open the project in your favorite editor (preferable IntelliJ IDEA)
 3. Run the application
 

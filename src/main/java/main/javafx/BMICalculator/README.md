@@ -11,7 +11,7 @@ This is a simple BMI calculator that calculates the BMI of a person based on the
 
 ## How to run the application
 
-1. Download the project from the repository or just simply copy the code from the tipCalculator.java file and paste it in your code editor.
+1. Download the project from the repository or just simply copy the code from the `BMIcalculator.java` file and paste it in your code editor.
 2. Open the project in your favorite editor (preferable IntelliJ IDEA)
 3. Run the application
 
