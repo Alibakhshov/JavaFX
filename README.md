@@ -3,7 +3,7 @@
 ## Table of Contents
 
 <ol>
-    <li><a href="#WhatisJavaFX?">What is JavaFX?</a></li>
+    <li><a href="WhatisJavaFX?">What is JavaFX?</a></li>
     <li><a href="#Enroll to the course">Enroll to the course</a></li>
     <li><a href="#What you will learn">What you will learn</a></li>
     <li><a href="#Contributing">Contributing</a></li>
