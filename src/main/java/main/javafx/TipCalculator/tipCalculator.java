@@ -1,4 +1,4 @@
-package main.javafx.tipCalculator;
+package main.javafx.TipCalculator;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
