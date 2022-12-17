@@ -51,59 +51,74 @@ Tip Calculator is a simple JavaFX application that calculates the tip for a give
 
 ![img_2.png](src/Pictures/img_2.png)
 
-
+## 2. [BMI Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/BMICalculator)
 BMI Calculator is a simple JavaFX application that calculates the BMI of a person.
-Click to view the source code.
+
+**Note:** Body Mass Index (BMI) is a person's weight in kilograms (or pounds) divided by the square of height in meters (or feet). BMI is used to determine whether a person is underweight, normal weight, overweight, or obese. 
+
+***Output of the application:***
 
 ![img_1.png](src/Pictures/img_1.png)
 
-Enhanced Tip Calculator
+## 3. [Enhanced Tip Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/EnhancedTipCalculator)
+Enhanced Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. It also calculates the total amount of the bill.
+
+***Output of the application:***
 
 ![img.png](src/Pictures/img.png)
 
+## 4. [Target Heart Rate Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TargetHeartRateCalculator)
 Target Heart Rate Calculator is a simple JavaFX application that calculates the target heart rate of a person. It uses the Karvonen formula to calculate the target heart rate. 
-Navigate to the source code here.
+
+**Note:** The Karvonen formula is a method of calculating the target heart rate zone for a person. The formula is based on the maximum heart rate and resting heart rate of a person.
+
+***Output of the application:***
 
 ![img_3.png](src/Pictures/img_3.png)
 
 ![img_4.png](src/Pictures/img_4.png)
 
+## 5. [Painter](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/PainterAppModification)
 Painter is a simple JavaFX application that allows the user to draw shapes on a canvas. The user can choose the color and the size of the pen to draw. 
-Navigate to the source code here.
+Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
 
-Output of the Painter application:
+***Output of the application:***
 
 ![img_5.png](src/Pictures/img_5.png)
 
 
-Simple Contact List App:
+## 6. [Contact List App](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/ContactListApp)
+Contact List App is a simple JavaFX application that allows the user to add, edit, and delete contacts. The user can also search for a contact by name.
 
-Output of the Simple Contact List App:
+***Output of the application:***
 
 ![img_7.png](src/Pictures/img_7.png)
 
 
+## 7. [Contact List App Modification](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/ContactsListAppModification)
 
 Modified Contact List App is a simple JavaFX application that allows the user to add, edit and delete contacts.
 Navigate to the source code here.
 
-Output of the Modified Contact List App:
+***Output of the application:***
 
 ![img_6.png](src/Pictures/img_6.png)
 
 
+## 8. [Modified Tip Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculatorModification)
 Modified Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage.
-Navigate to the source code here.
 
-Output of the Modified Tip Calculator:
+
+***Output of the application:***
 
 ![img_7.png](src/Pictures/img_8.png)
 
 ![img_9.png](src/Pictures/img_9.png)
 
+## 9. [Color Chooser](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/ColorChooserAppModification)
 Color Chooser is a simple JavaFX application that allows the user to choose a color from a color palette. The user can also choose the color using the RGB sliders.
-Navigate to the source code here.
+Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
 
-Output of the Color Chooser application:
+***Output of the application:***
 
 ![img_10.png](src/Pictures/img_10.png)
