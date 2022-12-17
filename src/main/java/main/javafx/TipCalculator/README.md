@@ -11,6 +11,11 @@ This is a simple tip calculator that calculates the tip amount and total bill am
 
 ![img_2.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img_2.png)
 
+
+## Author
+
+* **Alibakhshov** - *Initial work* - [Alibakhshov](https://github.com/Alibakhshov/)
+
 ## Contributions
 
 Anyone can contribute to this repository. If you want to contribute, please follow the steps below:
