@@ -4,9 +4,33 @@
 
 <ol>
     <li><a href="#what-is-javafx">What is JavaFX?</a></li>
-    <li><a href="#Enroll to the course">Enroll to the course</a></li>
-    <li><a href="#What you will learn">What you will learn</a></li>
-    <li><a href="#Contributing">Contributing</a></li>
+    <li><a href="#what-is-javafx-scene-builder">What is JavaFX Scene Builder?</a></li>
+    <li><a href="#how-to-use-this-repository">How to use this repository?</a></li>
+    <li>
+        <a href="#projects-using-javafx-and-scene-builder">Projects using JavaFX and Scene Builder</a>
+        <ul>
+            <li><a href="#1-javafx-tip-calculator">Tip Calculator</a></li>
+            <li><a href="#2-bmi-calculator">BMI Calculator</a></li>
+            <li><a href="#color-picker">Color Picker</a></li>
+            <li><a href="#file-chooser">File Chooser</a></li>
+            <li><a href="#image-viewer">Image Viewer</a></li>
+            <li><a href="#login-form">Login Form</a></li>
+            <li><a href="#progress-bar">Progress Bar</a></li>
+            <li><a href="#progress-indicator">Progress Indicator</a></li>
+            <li><a href="#slider">Slider</a></li>
+            <li><a href="#spinner">Spinner</a></li>
+            <li><a href="#split-pane">Split Pane</a></li>
+            <li><a href="#tab-pane">Tab Pane</a></li>
+            <li><a href="#table-view">Table View</a></li>
+            <li><a href="#text-area">Text Area</a></li>
+            <li><a href="#text-field">Text Field</a></li>
+            <li><a href="#toggle-button">Toggle Button</a></li>
+            <li><a href="#tree-view">Tree View</a></li>
+            <li><a href="#web-view">Web View</a></li>
+        </ul>
+    </li>
+    
+
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
   </ol>
