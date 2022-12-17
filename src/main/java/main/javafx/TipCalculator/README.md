@@ -20,7 +20,7 @@ This is a simple tip calculator that calculates the tip amount and total bill am
 4. Enter the bill amount and tip percentage
 5. The Tip Amount will be calculated and displayed automatically
 
-***Note:*** This application does not have `FXML` file as all elements were created using only code. 
+***Note:*** This application does not have `FXML` file as all elements were created using only `JAVA` code. 
 
 
 ## Contributions
