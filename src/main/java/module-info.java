@@ -23,10 +23,12 @@ module main.javafx {
     opens main.javafx.ContactListApp to javafx.fxml;
     exports main.javafx.TipCalculatorModification;
     opens main.javafx.TipCalculatorModification to javafx.fxml;
-    exports main.javafx.ColorChooser;
-    opens main.javafx.ColorChooser to javafx.fxml;
+//    exports main.javafx.ColorChooserAppModification.ColorChooser;
+//    opens main.javafx.ColorChooserAppModification.ColorChooser to javafx.fxml;
     opens main.javafx.PainterAppModification to javafx.fxml;
     exports main.javafx.PainterAppModification;
+    opens main.javafx.ColorChooserAppModification to javafx.fxml;
+    exports main.javafx.ColorChooserAppModification;
     //exports main.javafx.PainterAppModification.Painter;
 //    exports main.javafx.WebBrowser;
 //    opens main.javafx.WebBrowser to javafx.fxml;
