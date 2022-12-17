@@ -2,11 +2,11 @@
 
 ## Description
 
-This is a simple contact list app that allows you to add, edit, and delete contacts.
+This is a simple contact list app that allows you to add and delete contacts.
 
 ***Output of the application:***
 
-![img_6.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img_6.png)
+![img_7.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img_7.png)
 
 
 ## How to run the application
