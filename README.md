@@ -56,3 +56,10 @@ Output of the Modified Tip Calculator:
 ![img_7.png](src/Pictures/img_8.png)
 
 ![img_9.png](src/Pictures/img_9.png)
+
+Color Chooser is a simple JavaFX application that allows the user to choose a color from a color palette. The user can also choose the color using the RGB sliders.
+Navigate to the source code here.
+
+Output of the Color Chooser application:
+
+![img_10.png](src/Pictures/img_10.png)
