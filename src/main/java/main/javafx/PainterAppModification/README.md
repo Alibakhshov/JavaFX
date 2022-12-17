@@ -16,8 +16,7 @@ Painter is a simple JavaFX application that allows the user to draw shapes on a 
 2. Download the `FXML` source code from <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
 3. Open the project in your favorite editor (preferable IntelliJ IDEA)
 4. Run the application
-5. Enter the bill amount and tip percentage
-6. The Tip Amount will be calculated and displayed automatically
+
 
 
 ## Contributions
