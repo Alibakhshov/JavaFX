@@ -1,4 +1,4 @@
-package main.javafx.ContactListModification;
+package main.javafx.ContactListApp;
 
 import javafx.application.Application;
 import javafx.collections.FXCollections;
@@ -14,7 +14,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class ContactListModification extends Application {
+public class ContactList extends Application {
 
     // ObservableList to store the list of contacts
     private ObservableList<String> contacts = FXCollections.observableArrayList();

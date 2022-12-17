@@ -17,10 +17,10 @@ module main.javafx {
     opens main.javafx.TargetHeartRateCalculator to javafx.fxml;
 //    exports main.javafx.PainterAppModification.Painter;
     //opens main.javafx.PainterAppModification.Painter to javafx.fxml;
-    exports main.javafx.ContactsList;
-    opens main.javafx.ContactsList to javafx.fxml;
-    exports main.javafx.ContactListModification;
-    opens main.javafx.ContactListModification to javafx.fxml;
+    exports main.javafx.ContactsListAppModification;
+    opens main.javafx.ContactsListAppModification to javafx.fxml;
+    exports main.javafx.ContactListApp;
+    opens main.javafx.ContactListApp to javafx.fxml;
     exports main.javafx.TipCalculatorModification;
     opens main.javafx.TipCalculatorModification to javafx.fxml;
     exports main.javafx.ColorChooser;

@@ -31,10 +31,16 @@ Output of the Painter application:
 
 ![img_5.png](src/Pictures/img_5.png)
 
-Contact List App is a simple JavaFX application that allows the user to add, edit and delete contacts.
+
+Simple Contact List App:
+
+Output of the Simple Contact List App:
+
+
+
+Modified Contact List App is a simple JavaFX application that allows the user to add, edit and delete contacts.
 Navigate to the source code here.
 
-Output of the Contact List App:
+Output of the Modified Contact List App:
 
 ![img_6.png](src/Pictures/img_6.png)
-
