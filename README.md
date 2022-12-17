@@ -39,6 +39,8 @@ Click on `File` and then `New` to create a new FXML file.
 
 Click on `File` and then `New` to create a new controller class.
 
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
 
 ## Projects using JavaFX and Scene Builder 
 
