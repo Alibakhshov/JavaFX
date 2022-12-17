@@ -38,7 +38,7 @@ Click on `File` and then `New` to create a new FXML file.
 
 Click on `File` and then `New` to create a new controller class.
 
-## How to use this repository?
+# How to use this repository?
 
 ### 1. Clone the repository
 
