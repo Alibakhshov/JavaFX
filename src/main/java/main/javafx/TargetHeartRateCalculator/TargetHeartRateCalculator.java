@@ -71,23 +71,38 @@ public class TargetHeartRateCalculator extends Application {
         // Add a label and text field for the user's age
         Label ageLabel = new Label("Age:");
         ageLabel.setStyle(
-                        "-fx-font-size: 14px;" +
-                        "-fx-text-fill: #15151a;" +
-                        //"-fx-font-weight: bold;" +
-                        "-fx-font-family: 'Segoe UI';" +
-                        "-fx-alignment: center-right;" +
-                        "-fx-min-width: 100px;" +
-                        "-fx-max-width: 100px;" +
-                        "-fx-min-height: 25px;" +
-                        "-fx-max-height: 25px;"
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
         );
         TextField ageField = new TextField();
+        ageField.setStyle(
+                        "-fx-font-size: 14px;" +
+                        "-fx-font-weight: bold;" +
+                        "-fx-text-fill: #000000;" +
+                        "-fx-background-color: #ffffff;" +
+                        "-fx-border-color: #000000;" +
+                        "-fx-border-width: 1px;" +
+                        "-fx-border-radius: 5px;"
+        );
         gridPane.add(ageLabel, 0, 0);
         gridPane.add(ageField, 1, 0);
 
         // Add a label and text field for the user's resting heart rate
         Label restingHeartRateLabel = new Label("Resting Heart Rate:");
+        restingHeartRateLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         TextField restingHeartRateField = new TextField();
+        restingHeartRateField.setStyle(
+                        "-fx-font-size: 14px;" +
+                        "-fx-font-weight: bold;" +
+                        "-fx-text-fill: #000000;" +
+                        "-fx-background-color: #ffffff;" +
+                        "-fx-border-color: #000000;" +
+                        "-fx-border-width: 1px;" +
+                        "-fx-border-radius: 5px;"
+        );
         gridPane.add(restingHeartRateLabel, 0, 1);
         gridPane.add(restingHeartRateField, 1, 1);
 
