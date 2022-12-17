@@ -18,6 +18,7 @@ Enhanced Tip Calculator
 Target Heart Rate Calculator is a simple JavaFX application that calculates the target heart rate of a person. It uses the Karvonen formula to calculate the target heart rate. 
 Navigate to the source code here.
 
-<video width="320" height="240" controls>
-  <source src="src/Video/Target%20Heart%20Rate.webm" type="video/mp4">
-</video>
+![img_3.png](img_3.png)
+
+![img_4.png](img_4.png)
+
