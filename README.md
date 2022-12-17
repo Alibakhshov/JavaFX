@@ -18,10 +18,9 @@
             <li><a href="#7-contact-list-app-modification">Contact List App Modification</a></li>
             <li><a href="#8-modified-tip-calculator">Modified Tip Calculator</a></li>
             <li><a href="#9-color-chooser">Color Chooser</a></li>
-            <li><a href="#10-temperature-converter">Mini Web Browser</a></li>
+            <li><a href="#10-mini-web-browser">Mini Web Browser</a></li>
         </ul>
     </li>
-    
 
     <li><a href="#Acknowledgments">Acknowledgments</a></li>
     <li><a href="#Contact">Contact</a></li>
@@ -164,6 +163,10 @@ Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaF
 ***Output of the application:***
 
 ![img_10.png](src/Pictures/img_10.png)
+
+## 10. [Mini Web Browser](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/WebBrowser)
+Mini Web Browser is a simple JavaFX application that allows the user to browse the web. The user can enter a URL and the browser will load the page. The user can also go back and forward in the browser history.
+
 
 ## Contributions
 
