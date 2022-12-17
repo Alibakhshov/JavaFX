@@ -11,22 +11,14 @@
         <ul>
             <li><a href="#1-javafx-tip-calculator">Tip Calculator</a></li>
             <li><a href="#2-bmi-calculator">BMI Calculator</a></li>
-            <li><a href="#color-picker">Color Picker</a></li>
-            <li><a href="#file-chooser">File Chooser</a></li>
-            <li><a href="#image-viewer">Image Viewer</a></li>
-            <li><a href="#login-form">Login Form</a></li>
-            <li><a href="#progress-bar">Progress Bar</a></li>
-            <li><a href="#progress-indicator">Progress Indicator</a></li>
-            <li><a href="#slider">Slider</a></li>
-            <li><a href="#spinner">Spinner</a></li>
-            <li><a href="#split-pane">Split Pane</a></li>
-            <li><a href="#tab-pane">Tab Pane</a></li>
-            <li><a href="#table-view">Table View</a></li>
-            <li><a href="#text-area">Text Area</a></li>
-            <li><a href="#text-field">Text Field</a></li>
-            <li><a href="#toggle-button">Toggle Button</a></li>
-            <li><a href="#tree-view">Tree View</a></li>
-            <li><a href="#web-view">Web View</a></li>
+            <li><a href="#3-enhanced-tip-calculator">Enhanced Tip Calculator</a></li>
+            <li><a href="#4-target-heart-rate-calculator">Target Heart Rate Calculator</a></li>
+            <li><a href="#5-painter">Painter</a></li>
+            <li><a href="#6-contact-list-app">Contact List App</a></li>
+            <li><a href="#7-contact-list-app-modification">Contact List App Modification</a></li>
+            <li><a href="#8-modified-tip-calculator">Modified Tip Calculator</a></li>
+            <li><a href="#9-color-chooser">Color Chooser</a></li>
+            <li><a href="#10-temperature-converter">Mini Web Browser</a></li>
         </ul>
     </li>
     
