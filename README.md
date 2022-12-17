@@ -39,17 +39,15 @@ Click on `File` and then `New` to create a new FXML file.
 
 Click on `File` and then `New` to create a new controller class.
 
-[Contribution guidelines for this project](docs/CONTRIBUTING.md)
-
 
 ## Projects using JavaFX and Scene Builder 
 
 ### 1. [JavaFX Tip Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator)
 
-Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
-You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator">here</a>:
+Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. 
+You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/blob/master/src/main/java/main/javafx/TipCalculator/tipCalculator.java">here</a>:
 
-
+Output of the application:
 ![img_2.png](src/Pictures/img_2.png)
 
 
