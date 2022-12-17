@@ -25,7 +25,6 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 
-
 ## What is JavaFX?
 
 `JavaFX` is a software platform for creating and delivering desktop applications, as well as rich internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.
@@ -75,7 +74,7 @@ Click on `File` and then `New` to create a new controller class.
 
 Clone the repository using the following command:
 
-```bash 
+```bash
 git clone "https://github.com/Alibakhshov/JavaFX.git"
 ```
 
