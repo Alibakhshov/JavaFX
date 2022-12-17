@@ -28,16 +28,59 @@ public class TargetHeartRateCalculator extends Application {
 
         // Add a title label to the top of the layout
         Label titleLabel = new Label("Heart Rate Calculator");
+        titleLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;" +
+                        "-fx-font-weight: bold;" +
+                        "-fx-font-family: 'Segoe UI';" +
+                        "-fx-padding: 10px 0px 10px 0px;" +
+                        "-fx-background-color: #e6e6e6;" +
+                        "-fx-border-color: #d9d9d9;" +
+                        "-fx-border-width: 0px 0px 1px 0px;" +
+                        "-fx-border-style: solid;" +
+                        "-fx-alignment: center;" +
+                        "-fx-min-width: 400px;" +
+                        "-fx-max-width: 400px;" +
+                        "-fx-min-height: 50px;" +
+                        "-fx-max-height: 50px;" +
+                        "-fx-background-radius: 0px 0px 0px 0px;" +
+                        "-fx-border-radius: 0px 0px 0px 0px;" +
+                        "-fx-background-insets: 0px 0px 0px 0px;" +
+                        "-fx-border-insets: 0px 0px 0px 0px;" +
+                        "-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);"
+        );
         layout.setTop(titleLabel);
 
         // Add a grid pane to the center of the layout
         GridPane gridPane = new GridPane();
+        gridPane.setStyle(
+                        "-fx-background-color: #f2f2f2;" +
+                        "-fx-padding: 10px 10px 10px 10px;" +
+                        "-fx-hgap: 10px;" +
+                        "-fx-vgap: 10px;" +
+                        "-fx-background-radius: 1px 0px 0px 1px;" +
+                        "-fx-border-radius: 0px 0px 0px 0px;" +
+                        "-fx-background-insets: 0px 0px 0px 0px;" +
+                        "-fx-border-insets: 0px 0px 0px 0px;" +
+                        "-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 0);"
+        );
         gridPane.setHgap(10);
         gridPane.setVgap(10);
         gridPane.setPadding(new Insets(10));
 
         // Add a label and text field for the user's age
         Label ageLabel = new Label("Age:");
+        ageLabel.setStyle(
+                        "-fx-font-size: 14px;" +
+                        "-fx-text-fill: #15151a;" +
+                        //"-fx-font-weight: bold;" +
+                        "-fx-font-family: 'Segoe UI';" +
+                        "-fx-alignment: center-right;" +
+                        "-fx-min-width: 100px;" +
+                        "-fx-max-width: 100px;" +
+                        "-fx-min-height: 25px;" +
+                        "-fx-max-height: 25px;"
+        );
         TextField ageField = new TextField();
         gridPane.add(ageLabel, 0, 0);
         gridPane.add(ageField, 1, 0);
