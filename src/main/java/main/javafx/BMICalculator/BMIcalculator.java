@@ -30,8 +30,6 @@ public class BMIcalculator extends Application {
                 "-fx-border-radius: 5;" +
                 "-fx-border-color: blue;" +
                 "-fx-background-color: lightgray;"
-
-
         );
         grid.setPadding(new Insets(10, 10, 10, 10));
         grid.setVgap(8);
@@ -47,14 +45,13 @@ public class BMIcalculator extends Application {
 
         TextField weightInput = new TextField();
         weightInput.setStyle(
-                    "-fx-font-size: 14px;" +
+                        "-fx-font-size: 14px;" +
                         "-fx-font-weight: bold;" +
                         "-fx-text-fill: #000000;" +
                         "-fx-background-color: #ffffff;" +
                         "-fx-border-color: #000000;" +
                         "-fx-border-width: 1px;" +
                         "-fx-border-radius: 5px;"
-
         );
         GridPane.setConstraints(weightInput, 1, 0);
 
@@ -95,14 +92,41 @@ public class BMIcalculator extends Application {
         // Add clear button
         Button clearButton = new Button("Clear");
         clearButton.setStyle(
-                "-fx-font-size: 18px;" +
-                        "-fx-font-weight: bold;" +
-                        "-fx-text-fill: #000000;" +
-                        "-fx-background-color: #00ff00;" +
-                        "-fx-border-color: #000000;" +
-                        "-fx-border-width: 2px;" +
-                        "-fx-border-radius: 5px;"
-        );;
+                "-fx-font-size: 18pt;" +
+                "-fx-font-family: 'Verdana';" +
+                "-fx-text-fill: white;" +
+                "-fx-background-color: linear-gradient(to bottom, #0072C6, #0054A6);" +
+                "-fx-border-color: #0072C6;" +
+                "-fx-border-radius: 5;" +
+                "-fx-padding: 10;" +
+                "-fx-cursor: hand;" +
+                "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+
+        clearButton.setOnMouseEntered(event -> {
+            clearButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                    "-fx-font-family: 'Verdana';" +
+                    "-fx-text-fill: white;" +
+                    "-fx-background-color: linear-gradient(to bottom, #0054A6, #0072C6);" +
+                    "-fx-border-color: #0054A6;" +
+                    "-fx-border-radius: 5;" +
+                    "-fx-padding: 10;" +
+                    "-fx-cursor: hand;" +
+                    "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+
+        clearButton.setOnMouseExited(event -> {
+            clearButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                    "-fx-font-family: 'Verdana';" +
+                    "-fx-text-fill: white;" +
+                    "-fx-background-color: linear-gradient(to bottom, #81b6de, #3f5365);" +
+                    "-fx-border-color: #0072C6;" +
+                    "-fx-border-radius: 5;" +
+                    "-fx-padding: 10;" +
+                    "-fx-cursor: hand;" +
+                    "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
         GridPane.setConstraints(clearButton, 0, 4);
 
         // Add exit button
