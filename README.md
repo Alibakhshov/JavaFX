@@ -48,6 +48,7 @@ Tip Calculator is a simple JavaFX application that calculates the tip for a give
 You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/blob/master/src/main/java/main/javafx/TipCalculator/tipCalculator.java">here</a>:
 
 Output of the application:
+
 ![img_2.png](src/Pictures/img_2.png)
 
 
