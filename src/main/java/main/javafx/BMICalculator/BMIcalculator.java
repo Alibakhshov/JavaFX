@@ -6,20 +6,19 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.Labeled;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-
 public class BMIcalculator extends Application {
+
     public static void main(String[] args) {
         launch(args);
     }
 
     @Override
     public void start(Stage primaryStage) {
-        primaryStage.setTitle("BMI Calculator");
-
         // Create a grid pane to hold the input fields and labels
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10, 10, 10, 10));
