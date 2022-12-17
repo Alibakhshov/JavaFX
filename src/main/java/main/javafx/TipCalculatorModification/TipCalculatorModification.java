@@ -32,6 +32,15 @@ public class TipCalculatorModification extends Application {
 
         // Set up layout
         GridPane grid = new GridPane();
+        grid.setStyle(
+                        "-fx-padding: 10;" +
+                        "-fx-border-style: solid inside;" +
+                        "-fx-border-width: 2;" +
+                        "-fx-border-insets: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-color: #645e5e;" +
+                        "-fx-background-color: #f6f1f1;"
+        );
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(10);
         grid.setVgap(10);
@@ -52,7 +61,7 @@ public class TipCalculatorModification extends Application {
         calculateButton.setOnAction(event -> calculate());
 
         // Set up scene and stage
-        Scene scene = new Scene(grid, 300, 275);
+        Scene scene = new Scene(grid, 400, 200);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Tip Calculator Modification");
         primaryStage.show();
