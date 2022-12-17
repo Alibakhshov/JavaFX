@@ -1,9 +1,14 @@
 # JavaFX
 
 
+## What is JavaFX?
+
+``` `JavaFX` is a software platform for creating and delivering desktop applications, as well as rich internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.```
+
 
 Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
 You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator">here</a>:
+
 
 ![img_2.png](src/Pictures/img_2.png)
 
