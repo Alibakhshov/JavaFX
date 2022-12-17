@@ -23,20 +23,20 @@ public class BMIcalculator extends Application {
         // Creating a grid pane to hold the input fields and labels
         GridPane grid = new GridPane();
         grid.setStyle(
-                "-fx-padding: 10;" +
-                "-fx-border-style: solid inside;" +
-                "-fx-border-width: 2;" +
-                "-fx-border-insets: 5;" +
-                "-fx-border-radius: 5;" +
-                "-fx-border-color: blue;" +
-                "-fx-background-color: lightgray;"
+                        "-fx-padding: 10;" +
+                        "-fx-border-style: solid inside;" +
+                        "-fx-border-width: 2;" +
+                        "-fx-border-insets: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-color: black;" +
+                        "-fx-background-color: lightgray;"
         );
-        grid.setPadding(new Insets(20, 20, 10, 10));
+        grid.setPadding(new Insets(10, 10, 10, 10));
         grid.setVgap(8);
         grid.setHgap(10);
 
         // Add weight input field and label
-        Label weightLabel = new Label("Weight (kg): ");
+        Label weightLabel = new Label("Weight(kg): ");
         weightLabel.setStyle(
                         "-fx-font-size: 20px;" +
                         "-fx-text-fill: #15151a;"
@@ -56,7 +56,7 @@ public class BMIcalculator extends Application {
         GridPane.setConstraints(weightInput, 1, 0);
 
         // Add height input field and label
-        Label heightLabel = new Label("Height (cm): ");
+        Label heightLabel = new Label("Height(cm): ");
         heightLabel.setStyle(
                         "-fx-font-size: 20px;" +
                         "-fx-text-fill: #15151a;"
@@ -128,7 +128,7 @@ public class BMIcalculator extends Application {
                             "-fx-cursor: hand;" +
                             "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
         });
-        GridPane.setConstraints(calculateButton, 2, 4);
+        GridPane.setConstraints(calculateButton, 2, 2);
 
         // Add clear button
         Button clearButton = new Button("Clear");
@@ -244,7 +244,7 @@ public class BMIcalculator extends Application {
 
         // Create a scene and place it in the stage
 
-        Scene scene = new Scene(grid, 500, 400);
+        Scene scene = new Scene(grid, 600, 500);
 
         // Set the scene to the stage
 
