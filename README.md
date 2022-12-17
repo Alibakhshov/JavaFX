@@ -21,9 +21,8 @@
             <li><a href="#10-mini-web-browser">Mini Web Browser</a></li>
         </ul>
     </li>
-
-    <li><a href="#Acknowledgments">Acknowledgments</a></li>
-    <li><a href="#Contact">Contact</a></li>
+    <li><a href="#contributions">Contributions</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 
 
