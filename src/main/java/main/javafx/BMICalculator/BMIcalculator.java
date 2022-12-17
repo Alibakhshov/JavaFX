@@ -46,7 +46,7 @@ public class BMIcalculator extends Application {
         // Add height input field and label
         Label heightLabel = new Label("Height (cm): ");
         heightLabel.setStyle(
-                "-fx-font-size: 20px;" +
+                        "-fx-font-size: 20px;" +
                         "-fx-text-fill: #15151a;"
         );
         GridPane.setConstraints(heightLabel, 0, 1);
@@ -65,6 +65,10 @@ public class BMIcalculator extends Application {
 
         // Add BMI output label
         Label bmiLabel = new Label("BMI: ");
+        bmiLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         GridPane.setConstraints(bmiLabel, 0, 2);
         Label bmiOutput = new Label();
         GridPane.setConstraints(bmiOutput, 1, 2);
