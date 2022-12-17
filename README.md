@@ -45,7 +45,7 @@ Click on `File` and then `New` to create a new controller class.
 Clone the repository using the following command:
 
 ```bash 
-git clone "link to the repository"
+git clone "https://github.com/Alibakhshov/JavaFX.git"
 ```
 
 ### 2. Open the project in your IDE (preferably IntelliJ IDEA)
