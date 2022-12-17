@@ -4,9 +4,6 @@
 
 This is a simple BMI calculator that calculates the BMI of a person based on their height and weight.
 
-### [JavaFX BMI Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator)
-
-
 ***Output of the application:***
 
 ![img_1.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img_1.png)
@@ -17,8 +14,6 @@ This is a simple BMI calculator that calculates the BMI of a person based on the
 1. Download the project from the repository or just simply copy the code from the tipCalculator.java file and paste it in your code editor.
 2. Open the project in your favorite editor (preferable IntelliJ IDEA)
 3. Run the application
-4. Enter the bill amount and tip percentage
-5. The Tip Amount will be calculated and displayed automatically
 
 ***Note:*** This application does not have `FXML` file as all elements were created using only `JAVA` code. 
 

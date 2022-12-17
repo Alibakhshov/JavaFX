@@ -1,12 +1,12 @@
-# Enhanced Tip Calculator
+# Contact list app
 
 ## Description
 
-Enhanced Tip Calculator is a JavaFX application that calculates the tip for a given bill amount and tip percentage. It also calculates the total amount of the bill.
+This is a simple contact list app that allows you to add, edit, and delete contacts.
 
 ***Output of the application:***
 
-![img.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img.png)
+![img_6.png](https://github.com/Alibakhshov/JavaFX/blob/7e00fc2fef62e53f1b7fb85c51ffcea54c784e87/src/Pictures/img_6.png)
 
 
 ## How to run the application
