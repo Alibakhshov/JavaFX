@@ -3,7 +3,7 @@
 
 
 Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
-You can find the source code for this application here:
+You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator">here</a>:
 
 ![img_2.png](src/Pictures/img_2.png)
 
