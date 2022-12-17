@@ -44,8 +44,8 @@ Click on `File` and then `New` to create a new controller class.
 
 ### 1. [JavaFX Tip Calculator](https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx/TipCalculator)
 
-Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. 
-You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/blob/master/src/main/java/main/javafx/TipCalculator/tipCalculator.java">here</a>:
+#### Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. 
+#### You can find the source code for this application <a href="https://github.com/Alibakhshov/JavaFX/blob/master/src/main/java/main/javafx/TipCalculator/tipCalculator.java">here</a>:
 
 Output of the application:
 
