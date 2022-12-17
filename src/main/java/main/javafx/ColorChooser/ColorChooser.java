@@ -1,4 +1,4 @@
-package main.javafx.ColorChooser;// Fig. 13.8: ColorChooser.java
+package main.javafx.ColorChooser;// Fig. 13.8: Colorchooser.java
 // Main application class that loads and displays the ColorChooser's GUI.
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -22,6 +22,15 @@ public class EnhancedTipCalculator extends Application {
 
         // Create a grid pane to hold the user interface components
         GridPane pane = new GridPane();
+        pane.setStyle(
+                        "-fx-padding: 10;" +
+                        "-fx-border-style: solid inside;" +
+                        "-fx-border-width: 2;" +
+                        "-fx-border-insets: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-color: black;" +
+                        "-fx-background-color: lightgray;"
+        );
         pane.setAlignment(Pos.CENTER);
         pane.setPadding(new Insets(10, 10, 10, 10));
         pane.setHgap(5);
@@ -29,13 +38,39 @@ public class EnhancedTipCalculator extends Application {
 
         // Create a label and text field for the bill amount
         Label billAmountLabel = new Label("Bill amount:");
+        billAmountLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         TextField billAmountField = new TextField();
+        billAmountField.setStyle(
+                        "-fx-font-size: 14px;" +
+                        "-fx-font-weight: bold;" +
+                        "-fx-text-fill: #000000;" +
+                        "-fx-background-color: #ffffff;" +
+                        "-fx-border-color: #000000;" +
+                        "-fx-border-width: 1px;" +
+                        "-fx-border-radius: 5px;"
+        );
         pane.add(billAmountLabel, 0, 0);
         pane.add(billAmountField, 1, 0);
 
         // Create a label and text field for the tip percentage
         Label tipPercentageLabel = new Label("Tip percentage:");
+        tipPercentageLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         TextField tipPercentageField = new TextField();
+        tipPercentageField.setStyle(
+                        "-fx-font-size: 14px;" +
+                        "-fx-font-weight: bold;" +
+                        "-fx-text-fill: #000000;" +
+                        "-fx-background-color: #ffffff;" +
+                        "-fx-border-color: #000000;" +
+                        "-fx-border-width: 1px;" +
+                        "-fx-border-radius: 5px;"
+        );
         pane.add(tipPercentageLabel, 0, 1);
         pane.add(tipPercentageField, 1, 1);
 
