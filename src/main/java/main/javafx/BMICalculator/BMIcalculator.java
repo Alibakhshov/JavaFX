@@ -22,17 +22,32 @@ public class BMIcalculator extends Application {
 
         // Create a grid pane to hold the input fields and labels
         GridPane grid = new GridPane();
+        grid.setStyle(
+                "-fx-padding: 10;" +
+                "-fx-border-style: solid inside;" +
+                "-fx-border-width: 2;" +
+                "-fx-border-insets: 5;" +
+                "-fx-border-radius: 5;" +
+                "-fx-border-color: blue;" +
+                "-fx-background-color: lightgray;"
+
+
+        );
         grid.setPadding(new Insets(10, 10, 10, 10));
         grid.setVgap(8);
         grid.setHgap(10);
 
         // Add weight input field and label
         Label weightLabel = new Label("Weight (kg): ");
+        weightLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         GridPane.setConstraints(weightLabel, 0, 0);
 
         TextField weightInput = new TextField();
         weightInput.setStyle(
-                "-fx-font-size: 14px;" +
+                    "-fx-font-size: 14px;" +
                         "-fx-font-weight: bold;" +
                         "-fx-text-fill: #000000;" +
                         "-fx-background-color: #ffffff;" +
