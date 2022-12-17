@@ -111,6 +111,47 @@ public class TargetHeartRateCalculator extends Application {
 
         // Add a button to the bottom of the layout
         Button calculateButton = new Button("Calculate");
+        calculateButton.setStyle(
+                "-fx-font-size: 18pt;" +
+                        "-fx-font-family: 'Verdana';" +
+                        "-fx-text-fill: white;" +
+                        "-fx-background-color: linear-gradient(to bottom, #67a474, #379827);" +
+                        "-fx-border-color: #0072C6;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-padding: 10;" +
+                        "-fx-cursor: hand;" +
+                        "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);" +
+                        "-fx-background-radius: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-width: 1;" +
+                        "-fx-border-style: solid;"
+        );
+
+        calculateButton.setOnMouseEntered(event -> {
+            calculateButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #b7cc83, #4e6518);" +
+                            "-fx-border-color: #0054A6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+
+        calculateButton.setOnMouseExited(event -> {
+            calculateButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #3f4346, #3f5365);" +
+                            "-fx-border-color: #0072C6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
         layout.setBottom(calculateButton);
 
 
@@ -126,6 +167,10 @@ public class TargetHeartRateCalculator extends Application {
 
             // Display the target heart rate
             Label targetHeartRateLabel = new Label("Target Heart Rate: " + targetHeartRate);
+            targetHeartRateLabel.setStyle(
+                            "-fx-font-size: 20px;" +
+                            "-fx-text-fill: #15151a;"
+            );
             layout.setBottom(targetHeartRateLabel);
         });
 
