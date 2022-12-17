@@ -31,7 +31,7 @@ public class tipCalculator extends Application {
         gridPane.setHgap(10);
 
         // Create labels and text fields for the bill amount, tip percentage, and tip amount
-        Label billAmountLabel = new Label("Bill Amount:");
+        Label billAmountLabel = new Label("Amount:");
         billAmountLabel.setStyle(
                         "-fx-font-size: 20px;" +
                         "-fx-text-fill: #ffffff;"
@@ -46,7 +46,7 @@ public class tipCalculator extends Application {
                         "-fx-border-width: 1px;" +
                         "-fx-border-radius: 5px;"
         );
-        Label tipPercentageLabel = new Label("Tip Percentage:");
+        Label tipPercentageLabel = new Label("Percentage:");
         tipPercentageLabel.setStyle(
                         "-fx-font-size: 20px;" +
                         "-fx-text-fill: #ffffff;"
@@ -72,7 +72,7 @@ public class tipCalculator extends Application {
                         "-fx-font-weight: bold;" +
                         "-fx-text-fill: #000000;" +
                         "-fx-background-color: #ffffff;" +
-                        "-fx-border-color: #f3eeee;" +
+                        "-fx-border-color: #000000;" +
                         "-fx-border-width: 1px;" +
                         "-fx-border-radius: 5px;"
         );
