@@ -1,5 +1,17 @@
 # <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/java/main/javafx">JavaFX Projects</a> 
 
+## Table of Contents
+
+<ol>
+    <li><a href="#What is JavaFX?">What is JavaFX?</a></li>
+    <li><a href="#Enroll to the course">Enroll to the course</a></li>
+    <li><a href="#What you will learn">What you will learn</a></li>
+    <li><a href="#Contributing">Contributing</a></li>
+    <li><a href="#Acknowledgments">Acknowledgments</a></li>
+    <li><a href="#Contact">Contact</a></li>
+  </ol>
+
+
 ## What is JavaFX?
 
 `JavaFX` is a software platform for creating and delivering desktop applications, as well as rich internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.
@@ -38,7 +50,7 @@ Click on `File` and then `New` to create a new FXML file.
 
 Click on `File` and then `New` to create a new controller class.
 
-# How to use this repository?
+## How to use this repository?
 
 ### 1. Clone the repository
 
