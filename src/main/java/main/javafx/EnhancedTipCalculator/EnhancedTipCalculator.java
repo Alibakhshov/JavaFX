@@ -76,16 +76,73 @@ public class EnhancedTipCalculator extends Application {
 
         // Create a button to calculate the tip and total amount
         Button calculateButton = new Button("Calculate");
+        calculateButton.setStyle(
+                "-fx-font-size: 18pt;" +
+                        "-fx-font-family: 'Verdana';" +
+                        "-fx-text-fill: white;" +
+                        "-fx-background-color: linear-gradient(to bottom, #0072C6, #0054A6);" +
+                        "-fx-border-color: #0072C6;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-padding: 10;" +
+                        "-fx-cursor: hand;" +
+                        "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);" +
+                        "-fx-background-radius: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-width: 1;" +
+                        "-fx-border-style: solid;"
+        );
+
+        calculateButton.setOnMouseEntered(event -> {
+            calculateButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #0054A6, #0072C6);" +
+                            "-fx-border-color: #0054A6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+
+        calculateButton.setOnMouseExited(event -> {
+            calculateButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #81b6de, #3f5365);" +
+                            "-fx-border-color: #0072C6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
         pane.add(calculateButton, 1, 2);
 
         // Create labels to display the tip and total amount
         Label tipAmountLabel = new Label("Tip amount:");
+        tipAmountLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         Label tipAmountValueLabel = new Label();
+        tipAmountValueLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         pane.add(tipAmountLabel, 0, 3);
         pane.add(tipAmountValueLabel, 1, 3);
 
         Label totalAmountLabel = new Label("Total amount:");
+        totalAmountLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         Label totalAmountValueLabel = new Label();
+        totalAmountValueLabel.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         pane.add(totalAmountLabel, 0, 4);
         pane.add(totalAmountValueLabel, 1, 4);
 
