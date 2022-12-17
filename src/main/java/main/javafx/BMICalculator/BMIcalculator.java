@@ -31,7 +31,7 @@ public class BMIcalculator extends Application {
                 "-fx-border-color: blue;" +
                 "-fx-background-color: lightgray;"
         );
-        grid.setPadding(new Insets(10, 10, 10, 10));
+        grid.setPadding(new Insets(20, 20, 10, 10));
         grid.setVgap(8);
         grid.setHgap(10);
 
@@ -64,7 +64,7 @@ public class BMIcalculator extends Application {
         GridPane.setConstraints(heightLabel, 0, 1);
         TextField heightInput = new TextField();
         heightInput.setStyle(
-                "-fx-font-size: 14px;" +
+                        "-fx-font-size: 14px;" +
                         "-fx-font-weight: bold;" +
                         "-fx-text-fill: #000000;" +
                         "-fx-background-color: #ffffff;" +
@@ -87,7 +87,48 @@ public class BMIcalculator extends Application {
 
         // Add calculate button
         Button calculateButton = new Button("Calculate");
-        GridPane.setConstraints(calculateButton, 1, 3);
+        calculateButton.setStyle(
+                        "-fx-font-size: 18pt;" +
+                        "-fx-font-family: 'Verdana';" +
+                        "-fx-text-fill: white;" +
+                        "-fx-background-color: linear-gradient(to bottom, #0072C6, #0054A6);" +
+                        "-fx-border-color: #0072C6;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-padding: 10;" +
+                        "-fx-cursor: hand;" +
+                        "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);" +
+                        "-fx-background-radius: 5;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-border-width: 1;" +
+                        "-fx-border-style: solid;"
+        );
+
+        calculateButton.setOnMouseEntered(event -> {
+            calculateButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #0054A6, #0072C6);" +
+                            "-fx-border-color: #0054A6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+
+        calculateButton.setOnMouseExited(event -> {
+            calculateButton.setStyle(
+                            "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #81b6de, #3f5365);" +
+                            "-fx-border-color: #0072C6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+        GridPane.setConstraints(calculateButton, 2, 4);
 
         // Add clear button
         Button clearButton = new Button("Clear");
@@ -100,7 +141,8 @@ public class BMIcalculator extends Application {
                 "-fx-border-radius: 5;" +
                 "-fx-padding: 10;" +
                 "-fx-cursor: hand;" +
-                "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+                "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);"
+        );
 
         clearButton.setOnMouseEntered(event -> {
             clearButton.setStyle(
@@ -131,6 +173,43 @@ public class BMIcalculator extends Application {
 
         // Add exit button
         Button exitButton = new Button("Exit");
+        exitButton.setStyle(
+                        "-fx-font-size: 18pt;" +
+                        "-fx-font-family: 'Verdana';" +
+                        "-fx-text-fill: white;" +
+                        "-fx-background-color: linear-gradient(to bottom, #0072C6, #0054A6);" +
+                        "-fx-border-color: #0072C6;" +
+                        "-fx-border-radius: 5;" +
+                        "-fx-padding: 10;" +
+                        "-fx-cursor: hand;" +
+                        "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);"
+        );
+
+        exitButton.setOnMouseEntered(event -> {
+            exitButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #0054A6, #0072C6);" +
+                            "-fx-border-color: #0054A6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
+
+        exitButton.setOnMouseExited(event -> {
+            exitButton.setStyle(
+                    "-fx-font-size: 18pt;" +
+                            "-fx-font-family: 'Verdana';" +
+                            "-fx-text-fill: white;" +
+                            "-fx-background-color: linear-gradient(to bottom, #81b6de, #3f5365);" +
+                            "-fx-border-color: #0072C6;" +
+                            "-fx-border-radius: 5;" +
+                            "-fx-padding: 10;" +
+                            "-fx-cursor: hand;" +
+                            "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
+        });
         GridPane.setConstraints(exitButton, 1, 4);
 
 
@@ -165,7 +244,7 @@ public class BMIcalculator extends Application {
 
         // Create a scene and place it in the stage
 
-        Scene scene = new Scene(grid, 400, 300);
+        Scene scene = new Scene(grid, 500, 400);
 
         // Set the scene to the stage
 
