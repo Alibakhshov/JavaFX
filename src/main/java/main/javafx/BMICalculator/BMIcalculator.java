@@ -83,6 +83,10 @@ public class BMIcalculator extends Application {
         );
         GridPane.setConstraints(bmiLabel, 0, 2);
         Label bmiOutput = new Label();
+        bmiOutput.setStyle(
+                        "-fx-font-size: 20px;" +
+                        "-fx-text-fill: #15151a;"
+        );
         GridPane.setConstraints(bmiOutput, 1, 2);
 
         // Add calculate button
@@ -128,7 +132,7 @@ public class BMIcalculator extends Application {
                             "-fx-cursor: hand;" +
                             "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
         });
-        GridPane.setConstraints(calculateButton, 2, 2);
+        GridPane.setConstraints(calculateButton, 1, 3);
 
         // Add clear button
         Button clearButton = new Button("Clear");
@@ -169,7 +173,7 @@ public class BMIcalculator extends Application {
                     "-fx-cursor: hand;" +
                     "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
         });
-        GridPane.setConstraints(clearButton, 0, 4);
+        GridPane.setConstraints(clearButton, 0, 3);
 
         // Add exit button
         Button exitButton = new Button("Exit");
@@ -210,7 +214,7 @@ public class BMIcalculator extends Application {
                             "-fx-cursor: hand;" +
                             "fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 5, 0, 0, 1);");
         });
-        GridPane.setConstraints(exitButton, 1, 4);
+        GridPane.setConstraints(exitButton, 2, 3);
 
 
         // Add all nodes to the grid pane
@@ -237,21 +241,9 @@ public class BMIcalculator extends Application {
             System.exit(0);
         });
 
-
-        // Set the grid pane to the center of the scene
-
         grid.setAlignment(Pos.CENTER);
-
-        // Create a scene and place it in the stage
-
-        Scene scene = new Scene(grid, 600, 500);
-
-        // Set the scene to the stage
-
+        Scene scene = new Scene(grid, 500, 200);
         primaryStage.setScene(scene);
-
-        // Display the stage
-
         primaryStage.show();
     }
 }
