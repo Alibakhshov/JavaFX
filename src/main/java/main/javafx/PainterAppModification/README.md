@@ -3,7 +3,6 @@
 ## Description
 
 Painter is a simple JavaFX application that allows the user to draw shapes on a canvas. The user can choose the color and the size of the pen to draw.
-Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
 
 
 ***Output of the application:***
@@ -14,7 +13,7 @@ Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaF
 ## How to run the application
 
 1. Download the project from the repository or just simply copy the code from the `Painter.java` and `PainterController.java` files and paste it in your code editor.
-2. Navigate to the `FXML` source code <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
+2. Download the `FXML` source code from <a href="https://github.com/Alibakhshov/JavaFX/tree/master/src/main/resources/main/javafx">here</a>.
 3. Open the project in your favorite editor (preferable IntelliJ IDEA)
 4. Run the application
 5. Enter the bill amount and tip percentage
