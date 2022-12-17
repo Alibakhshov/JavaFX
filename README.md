@@ -46,3 +46,11 @@ Navigate to the source code here.
 Output of the Modified Contact List App:
 
 ![img_6.png](src/Pictures/img_6.png)
+
+
+Modified Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage.
+Navigate to the source code here.
+
+Output of the Modified Tip Calculator:
+
+![img_7.png](src/Pictures/img_8.png)
