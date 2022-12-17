@@ -1,5 +1,7 @@
 # JavaFX
 
+
+
 Tip Calculator is a simple JavaFX application that calculates the tip for a given bill amount and tip percentage. The application is built using Java 8 and JavaFX 8. 
 You can find the source code for this application here:
 
@@ -21,4 +23,11 @@ Navigate to the source code here.
 ![img_3.png](src/Pictures/img_3.png)
 
 ![img_4.png](src/Pictures/img_4.png)
+
+Painter is a simple JavaFX application that allows the user to draw shapes on a canvas. The user can choose the color and the size of the pen to draw. 
+Navigate to the source code here.
+
+Output of the Painter application:
+
+![img_5.png](src/Pictures/img_5.png)
 
