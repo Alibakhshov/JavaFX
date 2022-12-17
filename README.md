@@ -30,10 +30,13 @@
 
 `JavaFX` is a software platform for creating and delivering desktop applications, as well as rich internet applications (RIAs) that can run across a wide variety of devices. JavaFX is intended to replace Swing as the standard GUI library for Java SE, but both will be included for the foreseeable future.
 
+<p align="right"><a href="#top">back to top</a></p>
+
 ## What is JavaFX Scene Builder?
 
 `JavaFX Scene Builder` is a visual layout tool that lets users quickly design JavaFX application user interfaces, without coding. It is a companion tool to the JavaFX SDK. JavaFX Scene Builder is an open source, free visual design tool for JavaFX applications, and is available under the GNU General Public License version 2 with the Classpath Exception.
 
+<p align="right"><a href="#top">back to top</a></p>
 ## How to use JavaFX Scene Builder?
 
 ### 1. Download JavaFX Scene Builder
@@ -64,6 +67,8 @@ Click on `File` and then `New` to create a new FXML file.
 
 Click on `File` and then `New` to create a new controller class.
 
+<p align="right"><a href="#top">back to top</a></p>
+
 ## How to use this repository?
 
 ### 1. Clone the repository
@@ -78,7 +83,7 @@ git clone "https://github.com/Alibakhshov/JavaFX.git"
 
 ### 3. Run the project
 
-
+<p align="right"><a href="#top">back to top</a></p>
 
 ## Projects using JavaFX and Scene Builder 
 
@@ -195,3 +200,4 @@ Any questions or suggestions? Feel free to contact me at
 </a>
 
 
+<p align="right"><a href="#top">back to top</a></p>
