@@ -190,7 +190,7 @@ Anyone can contribute to this repository. If you want to contribute, please foll
 
 Any questions or suggestions? Feel free to contact me at
 
-<a href="https://www.linkedin.com/in/rauf-alibakhshov-6b5aa5210/">
+<a href="www.linkedin.com/in/alibakhshov">
     <img height="40" src="https://cdn2.iconfinder.com/data/icons/social-icon-3/512/social_style_3_in-306.png"/>
 </a>
 
